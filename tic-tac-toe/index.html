@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Kółko i krzyżyk</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <div class="board-info">
+            <div>Player 1: <span class="fa fa-circle-o"></span></div>
+            <div>Player 2: <span class="fa fa-times"></span></div>
+            <div>Next player: <span id="nextplayer" class="fa"></span></div>
+        </div>
+
+        <div class="board">
+            <div class="box fa" data-row="0" data-column="0"></div>
+            <div class="box fa" data-row="0" data-column="1"></div>
+            <div class="box fa" data-row="0" data-column="2"></div>
+            <div class="box fa" data-row="1" data-column="0"></div>
+            <div class="box fa" data-row="1" data-column="1"></div>
+            <div class="box fa" data-row="1" data-column="2"></div>
+            <div class="box fa" data-row="2" data-column="0"></div>
+            <div class="box fa" data-row="2" data-column="1"></div>
+            <div class="box fa" data-row="2" data-column="2"></div>
+        </div>
+    
+        <script src="app.js"></script>
+    </body>
+</html>
