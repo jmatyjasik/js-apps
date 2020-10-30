@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Draw</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>js-draw simple</h1></div>
+        <div class="tools">
+            <button id="btnClear">Clear</button>
+            <input type="color" id="selectColor" >
+            <input type="range" id="selectSize" min="1" max="50">
+            <label id="selectSizeLabel" for="selectSize"></label>
+        </div>
+        <div class="draw-board">
+            <canvas class="canvas" id="canvas" width="600" height="300"></canvas>
+        </div>
+    </div>
+
+    <div></div>
+    <script src="./simple.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "js-draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmatyjasik/js-draw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmatyjasik/js-draw/issues"
+  },
+  "homepage": "https://github.com/jmatyjasik/js-draw#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
